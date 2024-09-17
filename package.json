@@ -1,0 +1,29 @@
+{
+  "name": "mynodejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config --experimental-json-modules app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrendrayd/My_Node_Js.git"
+  },
+  "author": "Amrendra yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amrendrayd/My_Node_Js/issues"
+  },
+  "homepage": "https://github.com/amrendrayd/My_Node_Js#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.2",
+    "nodemailer": "^6.9.15"
+  }
+}
